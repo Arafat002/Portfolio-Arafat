@@ -1,4 +1,4 @@
-import TypewriterText from "../components/typewriterText";
+import TypewriterText from "../components/typewritertext";
 import { PersonalData } from "../data/personal-data";
 import {
   AiFillGithub,
