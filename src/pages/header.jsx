@@ -137,7 +137,7 @@ const Header = () => {
         {" "}
         {/* Show on small screens */}
         <button
-          className="mr-5 block hover:text-gray-900 focus:outline-none"
+          className="block text-gray bg-white border-none focus:outline-none"
           onClick={toggleMobileMenu}
         >
           <CgMenuRight size={32} />

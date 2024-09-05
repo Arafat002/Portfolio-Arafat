@@ -30,7 +30,7 @@ function Home() {
           </h2>
           <TypewriterText />
 
-          <div className="mt-4 flex gap-8 lg:gap-0">
+          <div className="mt-4 flex gap-3 lg:gap-0">
             {socialMedia.map((data, index) => {
               const IconComponent = socialMediaIcons[data.icon];
               return (
