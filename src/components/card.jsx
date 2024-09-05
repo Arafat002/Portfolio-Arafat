@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ProjectsData } from "../data/project-data";
+import { FaLocationArrow } from "react-icons/fa";
 
 function Cards() {
   const [showFullDescription, setShowFullDescription] = useState(null);
@@ -42,6 +43,14 @@ function Cards() {
               </p>
             ))}
           </div>
+          <p className="flex cursor-pointer items-center mt-6 gap-1 font-semibold leading-tight text-gray-900">
+          <a href={project.GithubLink}>View Github repo</a>
+          <FaLocationArrow />
+          </p>
+          <p className="flex cursor-pointer items-center mt-6 gap-1 font-semibold leading-tight text-gray-900">
+          <a href={project.LiveLink}>View Live Link</a>
+          <FaLocationArrow />
+          </p>
         </div>
       ))}
     </>

@@ -14,6 +14,8 @@ export const ProjectsData = {
           "Git",
           "GitHub",
         ],
+        GithubLink: "https://github.com/Arafat002/GYMnastics",
+        LiveLink:"",
       },
       {
         name: "Rayorin",
@@ -26,26 +28,16 @@ export const ProjectsData = {
           "GitHub",
           "Javascript",
         ],
+        GithubLink:"https://github.com/Arafat002/MyRestaurantWebsite",
+        LiveLink:"https://arafat002.github.io/MyRestaurantWebsite/",
       },
       {
         name: "Personal Portfolio",
         description:
           "My portfolio is a website built with React.js and Tailwind CSS, utilizing React Router v6 to enable easy access to multiple pages. It was designed and created entirely by myself, showcasing my skills and projects. The website is responsive and visually appealing, providing a user-friendly experience.",
         technologies: ["React JS", "Tailwind CSS", "Git", "GitHub"],
-      },
-      {
-        name: "Todo App",
-        description:
-          "ToDo is a web app built with React.js and CSS for managing tasks efficiently. It offers features such as adding, deleting, and sorting tasks by name or recently added, helping users stay organized. With its clean, responsive design and real-time updates, ToDo provides a seamless and user-friendly experience for effective task management.",
-        technologies: ["React JS", "CSS", "Git",
-          "GitHub",],
-      },
-      {
-        name: "E-commerce Website",
-        description:
-          "This E-commerce website is a online jewellry store static webpage built with HTML, CSS, and JavaScript.",
-        technologies: ["HTML", "CSS", "JavaScript", "Git",
-          "GitHub",],
+        GithubLink: "https://github.com/Arafat002/Portfolio-Arafat",
+        LiveLink:"https://arafat-motolani.vercel.app/",
       },
       {
         name: "GirlsTech",
@@ -57,6 +49,27 @@ export const ProjectsData = {
           "Git",
           "GitHub",
         ],
+        GithubLink: "https://github.com/Arafat002/Girls__Tech",
+        LiveLink:"https://girls-tech.vercel.app/",
+        
+      },
+      {
+        name: "Todo App",
+        description:
+          "ToDo is a web app built with React.js and CSS for managing tasks efficiently. It offers features such as adding, deleting, and sorting tasks by name or recently added, helping users stay organized. With its clean, responsive design and real-time updates, ToDo provides a seamless and user-friendly experience for effective task management.",
+        technologies: ["React JS", "CSS", "Git",
+          "GitHub",],
+        GithubLink:"https://github.com/Arafat002/Todo-App",
+        LiveLink:"https://fco-todoapp.netlify.app/",
+      },
+      {
+        name: "E-commerce Website",
+        description:
+          "This E-commerce website is a online jewellry store static webpage built with HTML, CSS, and JavaScript.",
+        technologies: ["HTML", "CSS", "JavaScript", "Git",
+          "GitHub",],
+        GithubLink:"https://github.com/Arafat002/E-commerce-Website",
+        LiveLink:"https://arafat002.github.io/E-commerce-Website/",
       },
       {
         name: "Swiftly",
@@ -72,6 +85,8 @@ export const ProjectsData = {
           "Mongo DB",
           "Express.JS"
         ],
+        GithubLink:"https://github.com/Arafat002/Swiftly",
+        LiveLink:"https://Swiftly.netlify.app",
       },
     ],
   };
