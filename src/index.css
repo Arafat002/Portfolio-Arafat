@@ -1,10 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgb(41, 40, 40);
   background-color: #242424;
 
   font-synthesis: none;
@@ -15,20 +19,20 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgb(41, 40, 40);
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
 
-body {
+html, body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
 }
+
 
 h1 {
   font-size: 3.2em;
@@ -47,7 +51,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #3e416e;
 }
 button:focus,
 button:focus-visible {
@@ -60,7 +64,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #5256a4;
   }
   button {
     background-color: #f9f9f9;
