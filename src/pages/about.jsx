@@ -10,7 +10,7 @@ function About() {
     <div className=" mt-12 mb-20 h-auto w-full sm:mb-0 md:h-screen">
       <div className="mx-auto flex w-[90%] flex-col justify-between rounded-lg bg-transparent p-4 shadow-lg md:flex-row md:items-center">
         <div className="flex w-full flex-col md:w-[50%]">
-          <p className="pb-2 text-2xl font-semibold tracking-wide text-gray-900">
+          <p className="pb-4 text-2xl font-semibold tracking-wide text-gray-900">
             About Me
           </p>
           <p className="font-poppins text-sm lg:text-base">{about}</p>
@@ -29,7 +29,7 @@ function About() {
                   key={id}
                 >
                   <img
-                    className="h-[50px] w-[60px] bg-contain bg-no-repeat"
+                    className="h-[50px] w-[60px]  bg-contain bg-no-repeat"
                     src={skillsImage(skill)}
                     alt={skill}
                   />
@@ -41,7 +41,7 @@ function About() {
         </div>
 
         <img
-          className="max-w[500px] mt-4 bg-cover bg-center bg-no-repeat md:w-[350px] lg:mt-0 lg:h-[350px] lg:w-[500px]"
+          className="max-w[500px] mt-8 bg-cover bg-center bg-no-repeat md:w-[350px] lg:mt-0 lg:h-[350px] lg:w-[500px]"
           src={AboutImage}
           alt=""
         />
