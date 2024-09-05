@@ -2,7 +2,6 @@ import Header from "../components/Header";
 import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
-//import Footer from "../components/Footer";
 import Project from "./project";
 import { Element } from "react-scroll";
 
